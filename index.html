@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="IRONFORGE Premium Fitness Club — train stronger, move better, live better.">
+  <meta name="theme-color" content="#11120f">
+  <title>IRONFORGE — Premium Fitness Club</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;600;700;800&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="announcement">FREE FITNESS ASSESSMENT <span>•</span> NEW MEMBERS ONLY</div>
+
+<header class="site-header" id="siteHeader">
+  <div class="nav-shell">
+    <a class="brand" href="#home" aria-label="IRONFORGE home">
+      <span class="brand-symbol">IF</span>
+      <span class="brand-copy"><b data-gym-name>IRONFORGE</b><small>PREMIUM FITNESS CLUB</small></span>
+    </a>
+    <nav class="main-nav" aria-label="Main navigation">
+      <a href="#about">About</a>
+      <a href="#programs">Programs</a>
+      <a href="#trainers">Coaches</a>
+      <a href="#gallery">Studio</a>
+      <a href="#membership">Membership</a>
+      <button class="nav-join" data-action="join">Join Now <span>↗</span></button>
+    </nav>
+    <button class="hamburger" id="hamburger" aria-label="Open navigation" aria-expanded="false">
+      <i></i><i></i><i></i>
+    </button>
+  </div>
+  <nav class="mobile-nav" id="mobileNav">
+    <a href="#about">About</a><a href="#programs">Programs</a><a href="#trainers">Coaches</a>
+    <a href="#gallery">Studio</a><a href="#membership">Membership</a>
+    <button class="nav-join" data-action="join">Join Now <span>↗</span></button>
+  </nav>
+</header>
+
+<main>
+<section class="hero" id="home">
+  <div class="hero-bg">
+    <img src="assets/images/hero-gym.jpg" alt="" class="hero-poster">
+    <video id="heroVideo" autoplay muted loop playsinline preload="metadata">
+      <source src="assets/videos/hero-gym-workout.mp4" type="video/mp4">
+    </video>
+  </div>
+  <div class="hero-shade"></div>
+  <div class="hero-grid"></div>
+  <div class="container hero-inner">
+    <div class="hero-copy reveal">
+      <div class="eyebrow"><span></span>TRAIN HARD. LIVE STRONG.</div>
+      <h1>YOUR BODY.<br><em>YOUR STANDARD.</em></h1>
+      <p>Premium coaching, elite equipment and a focused community built for people who expect more from themselves.</p>
+      <div class="hero-actions">
+        <button class="btn btn-lime" data-action="join">Start Your Journey <span>↗</span></button>
+        <a class="btn btn-outline" href="#gallery">Explore Studio <span>↓</span></a>
+      </div>
+      <div class="hero-trust">
+        <div><strong>4.9<span>/5</span></strong><small>MEMBER RATING</small></div>
+        <div><strong>12<span>+</span></strong><small>YEARS STRONG</small></div>
+        <div><strong>2.5K<span>+</span></strong><small>MEMBERS TRAINED</small></div>
+      </div>
+    </div>
+  </div>
+  <div class="hero-scroll">SCROLL <span>↓</span></div>
+</section>
+
+<section class="marquee"><div>STRENGTH <span>✦</span> PERFORMANCE <span>✦</span> TRANSFORMATION <span>✦</span> COMMUNITY <span>✦</span> STRENGTH <span>✦</span> PERFORMANCE <span>✦</span></div></section>
+
+<section class="section about" id="about">
+  <div class="container about-grid">
+    <div class="about-media reveal">
+      <img src="assets/images/gym-interior.jpg" alt="Premium IRONFORGE gym interior">
+      <div class="media-badge"><b>01</b><span>THE<br>STANDARD</span></div>
+    </div>
+    <div class="about-copy reveal">
+      <div class="eyebrow dark"><span></span>WHY IRONFORGE</div>
+      <h2>A GYM DESIGNED<br>AROUND <em>YOU.</em></h2>
+      <p>We don't believe in one-size-fits-all fitness. Every detail — from the equipment to the coaching — is designed to help you train with purpose and stay consistent.</p>
+      <div class="feature-list">
+        <div><b>01</b><span><strong>Premium Equipment</strong>Modern machines, free weights and functional zones.</span></div>
+        <div><b>02</b><span><strong>Expert Coaching</strong>Coaches who care about your technique and progress.</span></div>
+        <div><b>03</b><span><strong>Focused Community</strong>A positive environment where showing up matters.</span></div>
+      </div>
+      <button class="text-btn" data-action="call">Talk to a Coach <span>↗</span></button>
+    </div>
+  </div>
+</section>
+
+<section class="section programs" id="programs">
+  <div class="container">
+    <div class="section-head reveal"><div><div class="eyebrow"><span></span>PROGRAMS</div><h2>TRAIN WITH<br><em>PURPOSE.</em></h2></div><p>Pick a path. Follow the process. Build results that last.</p></div>
+    <div class="programs-grid">
+      <article class="program-card"><span class="number">01</span><div class="program-icon">↗</div><h3>STRENGTH</h3><p>Progressive resistance training to build power, muscle and confidence.</p><button data-program="Strength" data-action="choose">Choose Program ↗</button></article>
+      <article class="program-card accent-card"><span class="number">02</span><div class="program-icon">↗</div><h3>PERFORMANCE</h3><p>Athletic conditioning for speed, stamina, movement and power.</p><button data-program="Performance" data-action="choose">Choose Program ↗</button></article>
+      <article class="program-card"><span class="number">03</span><div class="program-icon">↗</div><h3>TRANSFORM</h3><p>A structured training system for sustainable body composition change.</p><button data-program="Transformation" data-action="choose">Choose Program ↗</button></article>
+    </div>
+  </div>
+</section>
+
+<section class="section coaches" id="trainers">
+  <div class="container">
+    <div class="section-head reveal"><div><div class="eyebrow dark"><span></span>THE COACHING TEAM</div><h2>PEOPLE WHO<br><em>KNOW THE WORK.</em></h2></div><a class="text-btn" href="#contact">Meet the team <span>↗</span></a></div>
+    <div class="coach-grid">
+      <article class="coach"><div class="coach-photo"><img src="assets/images/trainer-01.jpg" alt="Arjun Mehta"><span>STRENGTH</span></div><div class="coach-meta"><div><h3>Arjun Mehta</h3><p>Head Strength Coach</p></div><button data-action="call" aria-label="Talk to Arjun">↗</button></div></article>
+      <article class="coach"><div class="coach-photo"><img src="assets/images/trainer-02.jpg" alt="Maya Singh"><span>PERFORMANCE</span></div><div class="coach-meta"><div><h3>Maya Singh</h3><p>Performance Coach</p></div><button data-action="call" aria-label="Talk to Maya">↗</button></div></article>
+      <article class="coach"><div class="coach-photo"><img src="assets/images/trainer-03.jpg" alt="Kabir Khan"><span>TRANSFORMATION</span></div><div class="coach-meta"><div><h3>Kabir Khan</h3><p>Transformation Coach</p></div><button data-action="call" aria-label="Talk to Kabir">↗</button></div></article>
+    </div>
+  </div>
+</section>
+
+<section class="section studio" id="gallery">
+  <div class="container">
+    <div class="studio-title reveal"><div class="eyebrow"><span></span>THE STUDIO</div><h2>SEE THE<br><em>DIFFERENCE.</em></h2><p>Big training floor. Serious equipment. A space that makes you want to work.</p></div>
+    <div class="gallery-grid">
+      <figure class="gallery-card large"><img src="assets/images/workout-01.jpg" alt="Strength training area"><figcaption><span>HEAVY STRENGTH</span><b>01</b></figcaption></figure>
+      <figure class="gallery-card"><div class="video-box"><video autoplay muted loop playsinline preload="metadata" poster="assets/images/workout-02.jpg"><source src="assets/videos/workout-gallery-01.mp4" type="video/mp4"></video><span class="video-label">LIVE SESSION ▶</span></div><figcaption><span>ENERGY IN MOTION</span><b>02</b></figcaption></figure>
+      <figure class="gallery-card"><img src="assets/images/workout-03.jpg" alt="Functional training"><figcaption><span>FUNCTIONAL</span><b>03</b></figcaption></figure>
+      <figure class="gallery-card wide"><img src="assets/images/workout-04.jpg" alt="Gym conditioning zone"><figcaption><span>CONDITIONING ZONE</span><b>04</b></figcaption></figure>
+      <figure class="gallery-card"><div class="video-box"><video autoplay muted loop playsinline preload="metadata" poster="assets/images/gym-interior.jpg"><source src="assets/videos/workout-gallery-02.mp4" type="video/mp4"></video><span class="video-label">TRAINING FLOOR ▶</span></div><figcaption><span>FOCUS</span><b>05</b></figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<section class="section membership" id="membership">
+  <div class="container">
+    <div class="section-head reveal"><div><div class="eyebrow dark"><span></span>MEMBERSHIP</div><h2>CHOOSE YOUR<br><em>LEVEL.</em></h2></div><p>Simple plans. No confusing packages. Upgrade whenever you're ready.</p></div>
+    <div class="plans">
+      <article class="plan"><div class="plan-top"><span>01</span><b>STARTER</b></div><div class="price">₹1,499 <small>/ month</small></div><p>For building a consistent training habit.</p><ul><li>✓ Full gym floor access</li><li>✓ Locker access</li><li>✓ Fitness assessment</li><li>✓ Basic training plan</li></ul><button class="btn btn-dark" data-plan="Starter" data-action="plan">Choose Plan <span>↗</span></button></article>
+      <article class="plan popular"><span class="popular-tag">MOST POPULAR</span><div class="plan-top"><span>02</span><b>ELITE</b></div><div class="price">₹2,999 <small>/ month</small></div><p>For serious training and faster progress.</p><ul><li>✓ Everything in Starter</li><li>✓ Unlimited group sessions</li><li>✓ Monthly coach check-in</li><li>✓ Priority support</li></ul><button class="btn btn-dark" data-plan="Elite" data-action="plan">Choose Plan <span>↗</span></button></article>
+      <article class="plan"><div class="plan-top"><span>03</span><b>TRANSFORM</b></div><div class="price">₹5,999 <small>/ month</small></div><p>For members who want hands-on coaching.</p><ul><li>✓ Everything in Elite</li><li>✓ Personal training</li><li>✓ Nutrition guidance</li><li>✓ Progress tracking</li></ul><button class="btn btn-dark" data-plan="Transform" data-action="plan">Choose Plan <span>↗</span></button></article>
+    </div>
+  </div>
+</section>
+
+<section class="section reviews">
+  <div class="container">
+    <div class="eyebrow"><span></span>MEMBER STORIES</div>
+    <div class="review-main reveal"><div class="quote">“</div><blockquote>THE BEST PART ISN'T THE EQUIPMENT. IT'S THAT I ACTUALLY <em>WANT TO SHOW UP.</em></blockquote><div class="review-person"><strong>Rohan S.</strong><span>IRONFORGE MEMBER · 18 MONTHS</span></div></div>
+    <div class="review-row"><div><b>4.9/5</b><span>Average member rating</span></div><div><b>92%</b><span>Members train 3×+ weekly</span></div><div><b>2.5K+</b><span>Members transformed</span></div></div>
+  </div>
+</section>
+
+<section class="contact" id="contact">
+  <div class="container contact-grid">
+    <div class="contact-copy reveal">
+      <div class="eyebrow"><span></span>YOUR NEXT STEP</div>
+      <h2>READY TO<br><em>START?</em></h2>
+      <p>Book a free tour, ask about a membership or simply talk to a coach. No pressure.</p>
+      <div class="contact-actions">
+        <button class="btn btn-dark" data-action="call">Request a Call ↗</button>
+        <a class="btn btn-whatsapp" data-whatsapp href="#" target="_blank" rel="noopener">WhatsApp Us ↗</a>
+      </div>
+      <div class="contact-details"><div><small>CALL</small><strong data-phone>+91 98765 43210</strong></div><div><small>EMAIL</small><strong data-email>hello@ironforgefitness.com</strong></div><div><small>VISIT</small><strong data-address>Main Road, Ranchi, Jharkhand</strong></div></div>
+    </div>
+    <div class="contact-card" id="contactCard">
+      <span class="card-number">01 / FREE TOUR</span>
+      <h3>LET'S GET YOU<br>IN THE DOOR.</h3>
+      <p>Fill this quick form and we'll send your request directly to WhatsApp — no backend required.</p>
+      <button class="btn btn-lime" data-action="join">Book Free Tour <span>↗</span></button>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="container footer-grid">
+    <div><a class="brand" href="#home"><span class="brand-symbol">IF</span><span class="brand-copy"><b data-gym-name>IRONFORGE</b><small>PREMIUM FITNESS CLUB</small></span></a><p>Train hard. Live strong.</p></div>
+    <div><small>EXPLORE</small><a href="#about">About</a><a href="#programs">Programs</a><a href="#gallery">Studio</a></div>
+    <div><small>CONNECT</small><a href="#membership">Membership</a><a href="#contact">Contact</a><a data-whatsapp href="#" target="_blank">WhatsApp</a></div>
+    <div><small>FOLLOW</small><div class="socials">
+<a href="#" aria-label="Instagram" title="Instagram"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5"></rect><circle cx="12" cy="12" r="4.2"></circle><circle cx="17.4" cy="6.7" r="1.1" class="fill-dot"></circle></svg></a>
+<a href="#" aria-label="Facebook" title="Facebook"><svg viewBox="0 0 24 24"><path class="fb" d="M14.2 21v-8h2.7l.4-3.1h-3.1V7.9c0-.9.3-1.5 1.6-1.5h1.7V3.6c-.3 0-1.3-.1-2.5-.1-2.5 0-4.2 1.5-4.2 4.3v2.1H8v3.1h2.8v8h3.4z"></path></svg></a>
+<a href="#" aria-label="YouTube" title="YouTube"><svg viewBox="0 0 24 24"><path class="yt" d="M21.2 7.1a2.8 2.8 0 0 0-2-2C17.4 4.6 12 4.6 12 4.6s-5.4 0-7.2.5a2.8 2.8 0 0 0-2 2C2.3 8.9 2.3 12 2.3 12s0 3.1.5 4.9a2.8 2.8 0 0 0 2 2c1.8.5 7.2.5 7.2.5s5.4 0 7.2-.5a2.8 2.8 0 0 0 2-2c.5-1.8.5-4.9.5-4.9s0-3.1-.5-4.9z"></path><path class="play" d="M10.2 15.5 15.2 12l-5-3.5v7z"></path></svg></a>
+</div></div>
+  </div>
+  <div class="container footer-bottom"><span>© <span id="year"></span> <span data-gym-name>IRONFORGE</span>. All rights reserved.</span><button id="backTop">Back to top ↑</button></div>
+</footer>
+
+<div class="modal" id="leadModal" aria-hidden="true">
+  <div class="modal-backdrop" data-close-modal></div>
+  <div class="modal-box">
+    <button class="modal-close" data-close-modal aria-label="Close">×</button>
+    <div class="eyebrow"><span></span>FREE CONSULTATION</div>
+    <h2>LET'S TALK<br><em>FITNESS.</em></h2>
+    <p id="modalIntro">Tell us a little about yourself and we'll connect with you on WhatsApp.</p>
+    <form id="leadForm">
+      <input name="name" required placeholder="Full name">
+      <input name="phone" required type="tel" placeholder="Phone number">
+      <select name="goal" required><option value="" disabled selected>Primary goal</option><option>Build muscle</option><option>Lose fat</option><option>Build strength</option><option>Improve fitness</option><option>General fitness</option></select>
+      <select name="plan" id="modalPlan"><option value="">Interested in a plan (optional)</option><option>Starter — ₹1,499/month</option><option>Elite — ₹2,999/month</option><option>Transform — ₹5,999/month</option></select>
+      <button class="btn btn-lime" type="submit">Send on WhatsApp ↗</button>
+      <small>You'll be redirected to WhatsApp with your enquiry pre-filled.</small>
+    </form>
+  </div>
+</div>
+
+<script src="js/script.js"></script>
+</body>
+</html>
